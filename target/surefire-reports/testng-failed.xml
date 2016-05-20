@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="utility.Listener"/>
+  </listeners>
+  <test name="Random Test(failed)">
+    <classes>
+      <class name="ShivamTest.TestSingla.Framework_001">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="main"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- ShivamTest.TestSingla.Framework_001 -->
+      <class name="ShivamTest.TestSingla.Framework_002">
+        <methods>
+          <include name="f"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- ShivamTest.TestSingla.Framework_002 -->
+    </classes>
+  </test> <!-- Random Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
